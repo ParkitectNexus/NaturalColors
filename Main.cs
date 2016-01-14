@@ -26,9 +26,7 @@ namespace ColorCorrection {
 			get { return "Changes the colors of the game."; }
 		}
 
-		public string Identifier {
-			get { return "com.themeparkitect.ColorCorrection"; }
-		}
+		public string Identifier { get; set; }
 
 		// PN mod location path
 		public string Path { get; set; }
